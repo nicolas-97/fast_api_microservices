@@ -1,0 +1,7 @@
+# Archivos y directorios generados por Python
+service1/__pycache__/
+service2/__pycache__/
+
+# Dependencias y entornos virtuales de Python
+myenv/
+/.vscode/
