@@ -54,6 +54,10 @@ Con estos pasos, Nginx enrutará las solicitudes al nuevo microservicio de la mi
    git clone https://github.com/nicolas-97/fast_api_microservices.git
 
 2. Levanta los contenedores:
-    Asegurate de no tener ocupado el puerto 80 de ser asi, cambie el puerto en el docker-compose del servicio api-gateway y ejecuta:
+    Asegurate de no tener ocupado el puerto 80 de ser asi, cambie el puerto o termine el proceso que ocupa dicho puerto en el docker-compose del servicio api-gateway y ejecuta:
     ```bash
     docker compose up -d
+
+3. Para acceder al microservicio: service1 tienes que dirigirte a: http://localhost/service1/
+
+4. Para acceder al microservicio: service2 tienes que dirigirte a: http://localhost/service2/
