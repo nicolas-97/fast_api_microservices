@@ -51,7 +51,7 @@ Con estos pasos, Nginx enrutará las solicitudes al nuevo microservicio de la mi
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/nicolas-97/fast_api_microservices.git
+   git clone https://github.com/nicolas-97/template_to_microservices_on_fastapi_docker_nginx.git
 
 2. Levanta los contenedores:
     Asegurate de no tener ocupado el puerto 80 de ser asi, cambie el puerto o termine el proceso que ocupa dicho puerto en el docker-compose del servicio api-gateway y ejecuta:
